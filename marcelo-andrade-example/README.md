@@ -13,6 +13,6 @@ Based on the [PythonCompiler](https://github.com/marcelogdeandrade/PythonCompile
 ### Compilation
 
 1. `python main.py` to generate `output.ll`
-1. `llc -filetype=obj output.ll`
-1. `gcc output.o -o output`
-1. `./output`
+1. `llc -filetype=obj output.ll` to generate `output.o`
+1. `gcc output.o -o output` to generate the executable `output`
+1. `./output` to execute the executable
